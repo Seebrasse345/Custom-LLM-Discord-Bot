@@ -13,12 +13,12 @@ from TTS.api import TTS
 # ======================
 load_dotenv()
 
-TOKEN = "MTE3NTQ4OTMwNzk2NDg2NjY5Mw.Gi_O_B.CKcjsSf7P4mza9msqGrxyOgg2OWUgjW6wDo3VY" 
+TOKEN =  ""
 if not TOKEN:
     raise ValueError("No Discord API token found!")
 
 # Hardcode single guild ID
-DEFAULT_GUILD_ID = 745769392767500322  # Modify as needed
+DEFAULT_GUILD_ID = 1234567890  # Modify as needed
 
 # ======================
 # Coqui TTS Class
